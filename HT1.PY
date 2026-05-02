@@ -20,3 +20,9 @@ here I am learning Python and I am loving it"""
 multi_line_string2 = '''This is another way to assign a multi line string to a variable using triple single quotes.
 This is also perfectly valid and works the same way as triple double quotes.
 You can choose either of them based on your preference or the need to include certain types of quotes within the string.'''
+### Escape Characters
+
+# Escape characters are special characters that allow us to include characters in a string that would otherwise be difficult or impossible to include directly. They are typically represented by a backslash (\) followed by a specific character.
+# For example, if we want to include a double quote within a string that is enclosed in double quotes, we can use the escape character like this:
+string_with_quote = "She said, \"Hello!\""
+# In this example, the backslash before the double quotes allows us to include the double quotes as part of the string without ending it prematurely.
