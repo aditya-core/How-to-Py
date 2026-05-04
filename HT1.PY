@@ -26,3 +26,11 @@ You can choose either of them based on your preference or the need to include ce
 # For example, if we want to include a double quote within a string that is enclosed in double quotes, we can use the escape character like this:
 string_with_quote = "She said, \"Hello!\""
 # In this example, the backslash before the double quotes allows us to include the double quotes as part of the string without ending it prematurely.
+
+
+# one more fact about py 
+'''
+ 1. In Python, you can use triple quotes (either ''' or/ """) to create multi-line strings. This allows you to include line breaks and other formatting within the string without needing to use escape characters for newlines.
+ 2. Triple quotes are also useful for creating docstrings, which are multi-line comments that describe the purpose of a function, class, or module. Docstrings are typically enclosed in triple quotes and can be accessed using the __doc__ attribute of the object they describe.
+ 3. When using triple quotes for multi-line strings, the string will include all the whitespace and line breaks as they appear in the code. This means that if you have indentation or extra spaces, they will be part of the string. To avoid this, you can use the textwrap.dedent() function from the textwrap module to remove any common leading whitespace from each line in the string.
+ '''
