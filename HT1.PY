@@ -34,3 +34,11 @@ string_with_quote = "She said, \"Hello!\""
  2. Triple quotes are also useful for creating docstrings, which are multi-line comments that describe the purpose of a function, class, or module. Docstrings are typically enclosed in triple quotes and can be accessed using the __doc__ attribute of the object they describe.
  3. When using triple quotes for multi-line strings, the string will include all the whitespace and line breaks as they appear in the code. This means that if you have indentation or extra spaces, they will be part of the string. To avoid this, you can use the textwrap.dedent() function from the textwrap module to remove any common leading whitespace from each line in the string.
  '''
+
+
+
+# next point
+ '''
+ For Loops we have one more topic to cover and that is the use of the range() function in for loops. The range() function is a built-in function in Python that generates a sequence of numbers. It can take one, two, or three arguments to specify the start, stop, and step of the sequence.
+ - If you provide one argument, it will be treated as the stop value, and the sequence will start from 0. For example, range(5) will generate the numbers 0, 1, 2, 3, and 4.
+ '''
